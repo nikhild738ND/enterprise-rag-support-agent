@@ -1,0 +1,227 @@
+qid,route,question,gold_answer,gold_sources
+Q0001,docs,What does the Enterprise plan include?,"The Enterprise plan includes SAML SSO, SCIM provisioning, audit logs, sandbox workspaces, and status page webhooks.",DOC-PROD-001
+Q0002,docs,Support asks: what does the enterprise plan include?,"The Enterprise plan includes SAML SSO, SCIM provisioning, audit logs, sandbox workspaces, and status page webhooks.",DOC-PROD-001
+Q0003,docs,How often does usage analytics refresh?,Usage analytics refresh every 15 minutes.,DOC-PROD-001
+Q0004,docs,Support asks: how often does usage analytics refresh?,Usage analytics refresh every 15 minutes.,DOC-PROD-001
+Q0005,docs,What is the standard API rate limit?,The standard API rate limit is 600 requests per minute per workspace.,DOC-PROD-001
+Q0006,docs,Support asks: what is the standard api rate limit?,The standard API rate limit is 600 requests per minute per workspace.,DOC-PROD-001
+Q0007,docs,What is the file upload limit?,The file upload limit is 250 MB per file.,DOC-PROD-001
+Q0008,docs,Support asks: what is the file upload limit?,The file upload limit is 250 MB per file.,DOC-PROD-001
+Q0009,docs,What are payment terms for annual invoices?,Annual invoices are net 30.,DOC-PROD-002
+Q0010,docs,Support asks: what are payment terms for annual invoices?,Annual invoices are net 30.,DOC-PROD-002
+Q0011,docs,Do monthly subscriptions auto-renew?,Monthly subscriptions auto-renew on the billing anniversary.,DOC-PROD-002
+Q0012,docs,Support asks: do monthly subscriptions auto-renew?,Monthly subscriptions auto-renew on the billing anniversary.,DOC-PROD-002
+Q0013,docs,When do service credits expire?,Service credits expire 12 months after issue.,DOC-PROD-002
+Q0014,docs,Support asks: when do service credits expire?,Service credits expire 12 months after issue.,DOC-PROD-002
+Q0015,docs,Where can duplicate invoices be regenerated?,Duplicate invoices can be regenerated from Billing > Invoices.,DOC-PROD-002
+Q0016,docs,Support asks: where can duplicate invoices be regenerated?,Duplicate invoices can be regenerated from Billing > Invoices.,DOC-PROD-002
+Q0017,docs,What is the refund window for the first annual purchase?,The first annual purchase is eligible for a refund within 14 days.,DOC-POL-001
+Q0018,docs,Support asks: what is the refund window for the first annual purchase?,The first annual purchase is eligible for a refund within 14 days.,DOC-POL-001
+Q0019,docs,Are monthly charges refundable after the cycle starts?,Monthly charges are non-refundable after the billing cycle starts.,DOC-POL-001
+Q0020,docs,Support asks: are monthly charges refundable after the cycle starts?,Monthly charges are non-refundable after the billing cycle starts.,DOC-POL-001
+Q0021,docs,How long do unused add-on purchases stay refundable?,Add-on purchases are refundable within 7 days if unused.,DOC-POL-001
+Q0022,docs,Support asks: how long do unused add-on purchases stay refundable?,Add-on purchases are refundable within 7 days if unused.,DOC-POL-001
+Q0023,docs,How long do refunds take to arrive?,Refunds are issued to the original payment method within 5 to 10 business days.,DOC-POL-001
+Q0024,docs,Support asks: how long do refunds take to arrive?,Refunds are issued to the original payment method within 5 to 10 business days.,DOC-POL-001
+Q0025,docs,When do access tokens expire?,Access tokens expire after 12 hours.,DOC-POL-002
+Q0026,docs,Support asks: when do access tokens expire?,Access tokens expire after 12 hours.,DOC-POL-002
+Q0027,docs,How quickly must a security incident be escalated?,Security incidents must be escalated to the security lead within 1 hour.,DOC-POL-002
+Q0028,docs,Support asks: how quickly must a security incident be escalated?,Security incidents must be escalated to the security lead within 1 hour.,DOC-POL-002
+Q0029,docs,Does the platform store raw payment card numbers?,Raw payment card numbers are never stored.,DOC-POL-002
+Q0030,docs,Support asks: does the platform store raw payment card numbers?,Raw payment card numbers are never stored.,DOC-POL-002
+Q0031,docs,What permission is needed for audit log export?,Audit log export requires workspace admin permissions.,DOC-POL-002
+Q0032,docs,Support asks: what permission is needed for audit log export?,Audit log export requires workspace admin permissions.,DOC-POL-002
+Q0033,docs,How long are support tickets retained?,Support tickets are retained for 24 months.,DOC-POL-003
+Q0034,docs,Support asks: how long are support tickets retained?,Support tickets are retained for 24 months.,DOC-POL-003
+Q0035,docs,How long are audit logs retained?,Audit logs are retained for 12 months.,DOC-POL-003
+Q0036,docs,Support asks: how long are audit logs retained?,Audit logs are retained for 12 months.,DOC-POL-003
+Q0037,docs,When is deleted workspace data purged?,Deleted workspace data is purged after 30 days.,DOC-POL-003
+Q0038,docs,Support asks: when is deleted workspace data purged?,Deleted workspace data is purged after 30 days.,DOC-POL-003
+Q0039,docs,When do temporary CSV exports expire?,Temporary CSV exports expire after 7 days.,DOC-POL-003
+Q0040,docs,Support asks: when do temporary csv exports expire?,Temporary CSV exports expire after 7 days.,DOC-POL-003
+Q0041,docs,What should happen before sending a reset link?,Invalidate active sessions before sending the reset link.,DOC-RUN-001
+Q0042,docs,Support asks: what should happen before sending a reset link?,Invalidate active sessions before sending the reset link.,DOC-RUN-001
+Q0043,docs,What if SSO is enforced during password reset?,"If SSO is enforced, route the user to the identity provider admin instead of sending a local reset.",DOC-RUN-001
+Q0044,docs,Support asks: what if sso is enforced during password reset?,"If SSO is enforced, route the user to the identity provider admin instead of sending a local reset.",DOC-RUN-001
+Q0045,docs,How long is the reset link valid?,The reset link is valid for 30 minutes.,DOC-RUN-001
+Q0046,docs,Support asks: how long is the reset link valid?,The reset link is valid for 30 minutes.,DOC-RUN-001
+Q0047,docs,After how many failed attempts should password reset issues be escalated?,Escalate repeated failures after 3 unsuccessful attempts.,DOC-RUN-001
+Q0048,docs,Support asks: after how many failed attempts should password reset issues be escalated?,Escalate repeated failures after 3 unsuccessful attempts.,DOC-RUN-001
+Q0049,docs,When must a Sev1 incident be acknowledged?,Acknowledge a Sev1 incident within 5 minutes.,DOC-RUN-002
+Q0050,docs,Support asks: when must a sev1 incident be acknowledged?,Acknowledge a Sev1 incident within 5 minutes.,DOC-RUN-002
+Q0051,docs,When must the incident bridge open?,Open the incident bridge within 10 minutes.,DOC-RUN-002
+Q0052,docs,Support asks: when must the incident bridge open?,Open the incident bridge within 10 minutes.,DOC-RUN-002
+Q0053,docs,How often should the status page be updated during Sev1?,Update the public status page every 30 minutes.,DOC-RUN-002
+Q0054,docs,Support asks: how often should the status page be updated during sev1?,Update the public status page every 30 minutes.,DOC-RUN-002
+Q0055,docs,When does executive escalation happen for Sev1?,Escalate to executives at the 15 minute mark.,DOC-RUN-002
+Q0056,docs,Support asks: when does executive escalation happen for sev1?,Escalate to executives at the 15 minute mark.,DOC-RUN-002
+Q0057,docs,What response appears after rate limit is exceeded?,A 429 response is returned after 600 requests per minute.,DOC-RUN-003
+Q0058,docs,Support asks: what response appears after rate limit is exceeded?,A 429 response is returned after 600 requests per minute.,DOC-RUN-003
+Q0059,docs,What backoff schedule should customers use?,"Recommend exponential backoff of 2, 4, 8, and 16 seconds.",DOC-RUN-003
+Q0060,docs,Support asks: what backoff schedule should customers use?,"Recommend exponential backoff of 2, 4, 8, and 16 seconds.",DOC-RUN-003
+Q0061,docs,Should customers rotate API keys to bypass rate limits?,Do not advise customers to rotate API keys to bypass rate limits.,DOC-RUN-003
+Q0062,docs,Support asks: should customers rotate api keys to bypass rate limits?,Do not advise customers to rotate API keys to bypass rate limits.,DOC-RUN-003
+Q0063,docs,When should sustained rate limiting be escalated?,Escalate if sustained rate limiting lasts more than 2 hours.,DOC-RUN-003
+Q0064,docs,Support asks: when should sustained rate limiting be escalated?,Escalate if sustained rate limiting lasts more than 2 hours.,DOC-RUN-003
+Q0065,docs,Which plan supports SAML SSO?,SAML SSO is available only on Enterprise.,DOC-FAQ-001
+Q0066,docs,Support asks: which plan supports saml sso?,SAML SSO is available only on Enterprise.,DOC-FAQ-001
+Q0067,docs,Which plan supports SCIM provisioning?,SCIM provisioning is available only on Enterprise.,DOC-FAQ-001
+Q0068,docs,Support asks: which plan supports scim provisioning?,SCIM provisioning is available only on Enterprise.,DOC-FAQ-001
+Q0069,docs,Is just-in-time provisioning supported?,Just-in-time provisioning is supported with SAML.,DOC-FAQ-001
+Q0070,docs,Support asks: is just-in-time provisioning supported?,Just-in-time provisioning is supported with SAML.,DOC-FAQ-001
+Q0071,docs,What clock skew is allowed for SSO?,The allowed clock skew is 5 minutes.,DOC-FAQ-001
+Q0072,docs,Support asks: what clock skew is allowed for sso?,The allowed clock skew is 5 minutes.,DOC-FAQ-001
+Q0073,docs,How often does Salesforce sync run?,Salesforce sync runs every 15 minutes.,DOC-FAQ-002
+Q0074,docs,Support asks: how often does salesforce sync run?,Salesforce sync runs every 15 minutes.,DOC-FAQ-002
+Q0075,docs,When does Zendesk ticket import run?,Zendesk ticket import runs nightly at 1:00 UTC.,DOC-FAQ-002
+Q0076,docs,Support asks: when does zendesk ticket import run?,Zendesk ticket import runs nightly at 1:00 UTC.,DOC-FAQ-002
+Q0077,docs,What is required for the Slack connector?,The Slack connector requires workspace admin approval.,DOC-FAQ-002
+Q0078,docs,Support asks: what is required for the slack connector?,The Slack connector requires workspace admin approval.,DOC-FAQ-002
+Q0079,docs,How long do webhook retries continue?,Webhook retries continue for 24 hours.,DOC-FAQ-002
+Q0080,docs,Support asks: how long do webhook retries continue?,Webhook retries continue for 24 hours.,DOC-FAQ-002
+Q0081,docs,How quickly do hardware bundle orders ship?,Hardware bundle orders ship within 2 business days.,DOC-FAQ-003
+Q0082,docs,Support asks: how quickly do hardware bundle orders ship?,Hardware bundle orders ship within 2 business days.,DOC-FAQ-003
+Q0083,docs,Do replacement shipments restart the subscription term?,Replacement shipments do not restart the subscription term.,DOC-FAQ-003
+Q0084,docs,Support asks: do replacement shipments restart the subscription term?,Replacement shipments do not restart the subscription term.,DOC-FAQ-003
+Q0085,docs,When does a tracking number appear?,Tracking numbers appear after the carrier scan.,DOC-FAQ-003
+Q0086,docs,Support asks: when does a tracking number appear?,Tracking numbers appear after the carrier scan.,DOC-FAQ-003
+Q0087,docs,How are backordered accessories shipped?,Backordered accessories ship separately from the main order.,DOC-FAQ-003
+Q0088,docs,Support asks: how are backordered accessories shipped?,Backordered accessories ship separately from the main order.,DOC-FAQ-003
+Q0089,sql,What plan is account A-1001 on?,Account A-1001 is on the Starter plan.,SQL::accounts
+Q0090,sql,How many seats does account A-1001 have?,Account A-1001 has 8 seats.,SQL::accounts
+Q0091,sql,Which region is account A-1001 hosted in?,Account A-1001 is hosted in us-west.,SQL::accounts
+Q0092,sql,How many currently active or open tickets does account A-1001 have?,Account A-1001 has 1 currently active or open tickets.,SQL::tickets
+Q0093,sql,What plan is account A-1002 on?,Account A-1002 is on the Enterprise plan.,SQL::accounts
+Q0094,sql,How many seats does account A-1002 have?,Account A-1002 has 540 seats.,SQL::accounts
+Q0095,sql,Which region is account A-1002 hosted in?,Account A-1002 is hosted in us-east.,SQL::accounts
+Q0096,sql,How many currently active or open tickets does account A-1002 have?,Account A-1002 has 2 currently active or open tickets.,SQL::tickets
+Q0097,sql,What plan is account A-1003 on?,Account A-1003 is on the Growth plan.,SQL::accounts
+Q0098,sql,How many seats does account A-1003 have?,Account A-1003 has 120 seats.,SQL::accounts
+Q0099,sql,Which region is account A-1003 hosted in?,Account A-1003 is hosted in eu-west.,SQL::accounts
+Q0100,sql,How many currently active or open tickets does account A-1003 have?,Account A-1003 has 2 currently active or open tickets.,SQL::tickets
+Q0101,sql,What plan is account A-1004 on?,Account A-1004 is on the Enterprise plan.,SQL::accounts
+Q0102,sql,How many seats does account A-1004 have?,Account A-1004 has 880 seats.,SQL::accounts
+Q0103,sql,Which region is account A-1004 hosted in?,Account A-1004 is hosted in us-east.,SQL::accounts
+Q0104,sql,How many currently active or open tickets does account A-1004 have?,Account A-1004 has 1 currently active or open tickets.,SQL::tickets
+Q0105,sql,What plan is account A-1005 on?,Account A-1005 is on the Starter plan.,SQL::accounts
+Q0106,sql,How many seats does account A-1005 have?,Account A-1005 has 6 seats.,SQL::accounts
+Q0107,sql,Which region is account A-1005 hosted in?,Account A-1005 is hosted in ap-south.,SQL::accounts
+Q0108,sql,How many currently active or open tickets does account A-1005 have?,Account A-1005 has 1 currently active or open tickets.,SQL::tickets
+Q0109,sql,What plan is account A-1006 on?,Account A-1006 is on the Growth plan.,SQL::accounts
+Q0110,sql,How many seats does account A-1006 have?,Account A-1006 has 200 seats.,SQL::accounts
+Q0111,sql,Which region is account A-1006 hosted in?,Account A-1006 is hosted in eu-north.,SQL::accounts
+Q0112,sql,How many currently active or open tickets does account A-1006 have?,Account A-1006 has 1 currently active or open tickets.,SQL::tickets
+Q0113,sql,What plan is account A-1007 on?,Account A-1007 is on the Enterprise plan.,SQL::accounts
+Q0114,sql,How many seats does account A-1007 have?,Account A-1007 has 320 seats.,SQL::accounts
+Q0115,sql,Which region is account A-1007 hosted in?,Account A-1007 is hosted in us-west.,SQL::accounts
+Q0116,sql,How many currently active or open tickets does account A-1007 have?,Account A-1007 has 1 currently active or open tickets.,SQL::tickets
+Q0117,sql,What plan is account A-1008 on?,Account A-1008 is on the Starter plan.,SQL::accounts
+Q0118,sql,How many seats does account A-1008 have?,Account A-1008 has 10 seats.,SQL::accounts
+Q0119,sql,Which region is account A-1008 hosted in?,Account A-1008 is hosted in us-central.,SQL::accounts
+Q0120,sql,How many currently active or open tickets does account A-1008 have?,Account A-1008 has 0 currently active or open tickets.,SQL::tickets
+Q0121,sql,What plan is account A-1009 on?,Account A-1009 is on the Enterprise plan.,SQL::accounts
+Q0122,sql,How many seats does account A-1009 have?,Account A-1009 has 1100 seats.,SQL::accounts
+Q0123,sql,Which region is account A-1009 hosted in?,Account A-1009 is hosted in eu-west.,SQL::accounts
+Q0124,sql,How many currently active or open tickets does account A-1009 have?,Account A-1009 has 1 currently active or open tickets.,SQL::tickets
+Q0125,sql,What plan is account A-1010 on?,Account A-1010 is on the Growth plan.,SQL::accounts
+Q0126,sql,How many seats does account A-1010 have?,Account A-1010 has 95 seats.,SQL::accounts
+Q0127,sql,Which region is account A-1010 hosted in?,Account A-1010 is hosted in ap-southeast.,SQL::accounts
+Q0128,sql,How many currently active or open tickets does account A-1010 have?,Account A-1010 has 0 currently active or open tickets.,SQL::tickets
+Q0129,api,What is the current status of ticket T-2001?,Ticket T-2001 is currently investigating.,API::ticket_status
+Q0130,sql,Who is assigned to ticket T-2001?,Ticket T-2001 is assigned to A. Chen.,SQL::tickets
+Q0131,sql,What severity is ticket T-2001?,Ticket T-2001 has severity sev1.,SQL::tickets
+Q0132,api,What is the current status of ticket T-2002?,Ticket T-2002 is currently open.,API::ticket_status
+Q0133,sql,Who is assigned to ticket T-2002?,Ticket T-2002 is assigned to R. Singh.,SQL::tickets
+Q0134,sql,What severity is ticket T-2002?,Ticket T-2002 has severity sev2.,SQL::tickets
+Q0135,api,What is the current status of ticket T-2003?,Ticket T-2003 is currently waiting_customer.,API::ticket_status
+Q0136,sql,Who is assigned to ticket T-2003?,Ticket T-2003 is assigned to M. Park.,SQL::tickets
+Q0137,sql,What severity is ticket T-2003?,Ticket T-2003 has severity sev3.,SQL::tickets
+Q0138,api,What is the current status of ticket T-2004?,Ticket T-2004 is currently mitigated.,API::ticket_status
+Q0139,sql,Who is assigned to ticket T-2004?,Ticket T-2004 is assigned to A. Chen.,SQL::tickets
+Q0140,sql,What severity is ticket T-2004?,Ticket T-2004 has severity sev1.,SQL::tickets
+Q0141,api,What is the current status of ticket T-2005?,Ticket T-2005 is currently open.,API::ticket_status
+Q0142,sql,Who is assigned to ticket T-2005?,Ticket T-2005 is assigned to L. Gomez.,SQL::tickets
+Q0143,sql,What severity is ticket T-2005?,Ticket T-2005 has severity sev2.,SQL::tickets
+Q0144,api,What is the current status of ticket T-2006?,Ticket T-2006 is currently resolved.,API::ticket_status
+Q0145,sql,Who is assigned to ticket T-2006?,Ticket T-2006 is assigned to R. Singh.,SQL::tickets
+Q0146,sql,What severity is ticket T-2006?,Ticket T-2006 has severity sev3.,SQL::tickets
+Q0147,api,What is the current status of ticket T-2007?,Ticket T-2007 is currently open.,API::ticket_status
+Q0148,sql,Who is assigned to ticket T-2007?,Ticket T-2007 is assigned to P. Roy.,SQL::tickets
+Q0149,sql,What severity is ticket T-2007?,Ticket T-2007 has severity sev2.,SQL::tickets
+Q0150,api,What is the current status of ticket T-2008?,Ticket T-2008 is currently open.,API::ticket_status
+Q0151,sql,Who is assigned to ticket T-2008?,Ticket T-2008 is assigned to L. Gomez.,SQL::tickets
+Q0152,sql,What severity is ticket T-2008?,Ticket T-2008 has severity sev3.,SQL::tickets
+Q0153,api,What is the current status of ticket T-2009?,Ticket T-2009 is currently investigating.,API::ticket_status
+Q0154,sql,Who is assigned to ticket T-2009?,Ticket T-2009 is assigned to A. Chen.,SQL::tickets
+Q0155,sql,What severity is ticket T-2009?,Ticket T-2009 has severity sev1.,SQL::tickets
+Q0156,api,What is the current status of ticket T-2010?,Ticket T-2010 is currently resolved.,API::ticket_status
+Q0157,sql,Who is assigned to ticket T-2010?,Ticket T-2010 is assigned to S. Patel.,SQL::tickets
+Q0158,sql,What severity is ticket T-2010?,Ticket T-2010 has severity sev2.,SQL::tickets
+Q0159,api,What is the current status of ticket T-2011?,Ticket T-2011 is currently open.,API::ticket_status
+Q0160,sql,Who is assigned to ticket T-2011?,Ticket T-2011 is assigned to R. Singh.,SQL::tickets
+Q0161,sql,What severity is ticket T-2011?,Ticket T-2011 has severity sev3.,SQL::tickets
+Q0162,api,What is the current status of ticket T-2012?,Ticket T-2012 is currently open.,API::ticket_status
+Q0163,sql,Who is assigned to ticket T-2012?,Ticket T-2012 is assigned to M. Park.,SQL::tickets
+Q0164,sql,What severity is ticket T-2012?,Ticket T-2012 has severity sev2.,SQL::tickets
+Q0165,api,What is the current status of order O-3001?,Order O-3001 is currently shipped.,API::order_status
+Q0166,sql,What is the expected delivery date for order O-3001?,Order O-3001 is expected on 2026-04-14.,SQL::orders
+Q0167,api,What tracking number is attached to order O-3001?,Order O-3001 has tracking number TRK-9001.,API::order_status
+Q0168,api,What is the current status of order O-3002?,Order O-3002 is currently backordered.,API::order_status
+Q0169,sql,What is the expected delivery date for order O-3002?,Order O-3002 is expected on 2026-04-20.,SQL::orders
+Q0170,api,What tracking number is attached to order O-3002?,Order O-3002 does not have a tracking number yet.,API::order_status
+Q0171,api,What is the current status of order O-3003?,Order O-3003 is currently processing.,API::order_status
+Q0172,sql,What is the expected delivery date for order O-3003?,Order O-3003 is expected on 2026-04-16.,SQL::orders
+Q0173,api,What tracking number is attached to order O-3003?,Order O-3003 does not have a tracking number yet.,API::order_status
+Q0174,api,What is the current status of order O-3004?,Order O-3004 is currently delivered.,API::order_status
+Q0175,sql,What is the expected delivery date for order O-3004?,Order O-3004 is expected on 2026-04-12.,SQL::orders
+Q0176,api,What tracking number is attached to order O-3004?,Order O-3004 has tracking number TRK-9004.,API::order_status
+Q0177,api,What is the current status of order O-3005?,Order O-3005 is currently shipped.,API::order_status
+Q0178,sql,What is the expected delivery date for order O-3005?,Order O-3005 is expected on 2026-04-18.,SQL::orders
+Q0179,api,What tracking number is attached to order O-3005?,Order O-3005 has tracking number TRK-9005.,API::order_status
+Q0180,api,What is the current status of order O-3006?,Order O-3006 is currently processing.,API::order_status
+Q0181,sql,What is the expected delivery date for order O-3006?,Order O-3006 is expected on 2026-04-19.,SQL::orders
+Q0182,api,What tracking number is attached to order O-3006?,Order O-3006 does not have a tracking number yet.,API::order_status
+Q0183,hybrid,Can account A-1001 use SAML SSO?,"No. Account A-1001 is on Starter, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0184,hybrid,Can account A-1001 use SCIM provisioning?,"No. Account A-1001 is on Starter, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0185,hybrid,Can account A-1001 use PO numbers for billing?,No. Account A-1001 cannot use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Starter.,SQL::accounts|DOC-PROD-002
+Q0186,hybrid,Can account A-1002 use SAML SSO?,"Yes. Account A-1002 is on Enterprise, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0187,hybrid,Can account A-1002 use SCIM provisioning?,"Yes. Account A-1002 is on Enterprise, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0188,hybrid,Can account A-1002 use PO numbers for billing?,Yes. Account A-1002 can use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Enterprise.,SQL::accounts|DOC-PROD-002
+Q0189,hybrid,Can account A-1003 use SAML SSO?,"No. Account A-1003 is on Growth, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0190,hybrid,Can account A-1003 use SCIM provisioning?,"No. Account A-1003 is on Growth, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0191,hybrid,Can account A-1003 use PO numbers for billing?,No. Account A-1003 cannot use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Growth.,SQL::accounts|DOC-PROD-002
+Q0192,hybrid,Can account A-1004 use SAML SSO?,"Yes. Account A-1004 is on Enterprise, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0193,hybrid,Can account A-1004 use SCIM provisioning?,"Yes. Account A-1004 is on Enterprise, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0194,hybrid,Can account A-1004 use PO numbers for billing?,Yes. Account A-1004 can use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Enterprise.,SQL::accounts|DOC-PROD-002
+Q0195,hybrid,Can account A-1005 use SAML SSO?,"No. Account A-1005 is on Starter, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0196,hybrid,Can account A-1005 use SCIM provisioning?,"No. Account A-1005 is on Starter, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0197,hybrid,Can account A-1005 use PO numbers for billing?,No. Account A-1005 cannot use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Starter.,SQL::accounts|DOC-PROD-002
+Q0198,hybrid,Can account A-1006 use SAML SSO?,"No. Account A-1006 is on Growth, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0199,hybrid,Can account A-1006 use SCIM provisioning?,"No. Account A-1006 is on Growth, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0200,hybrid,Can account A-1006 use PO numbers for billing?,No. Account A-1006 cannot use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Growth.,SQL::accounts|DOC-PROD-002
+Q0201,hybrid,Can account A-1007 use SAML SSO?,"Yes. Account A-1007 is on Enterprise, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0202,hybrid,Can account A-1007 use SCIM provisioning?,"Yes. Account A-1007 is on Enterprise, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0203,hybrid,Can account A-1007 use PO numbers for billing?,Yes. Account A-1007 can use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Enterprise.,SQL::accounts|DOC-PROD-002
+Q0204,hybrid,Can account A-1008 use SAML SSO?,"No. Account A-1008 is on Starter, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0205,hybrid,Can account A-1008 use SCIM provisioning?,"No. Account A-1008 is on Starter, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0206,hybrid,Can account A-1008 use PO numbers for billing?,No. Account A-1008 cannot use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Starter.,SQL::accounts|DOC-PROD-002
+Q0207,hybrid,Can account A-1009 use SAML SSO?,"Yes. Account A-1009 is on Enterprise, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0208,hybrid,Can account A-1009 use SCIM provisioning?,"Yes. Account A-1009 is on Enterprise, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0209,hybrid,Can account A-1009 use PO numbers for billing?,Yes. Account A-1009 can use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Enterprise.,SQL::accounts|DOC-PROD-002
+Q0210,hybrid,Can account A-1010 use SAML SSO?,"No. Account A-1010 is on Growth, and SAML SSO is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0211,hybrid,Can account A-1010 use SCIM provisioning?,"No. Account A-1010 is on Growth, and SCIM provisioning is available only on Enterprise.",SQL::accounts|DOC-FAQ-001
+Q0212,hybrid,Can account A-1010 use PO numbers for billing?,No. Account A-1010 cannot use PO numbers because PO numbers are supported only on Enterprise annual contracts and this account is Growth.,SQL::accounts|DOC-PROD-002
+Q0213,hybrid,Ticket T-2001 is marked sev1. How often should the public status page be updated?,"Because ticket T-2001 is sev1, the public status page should be updated every 30 minutes.",API::ticket_status|DOC-RUN-002
+Q0214,hybrid,Ticket T-2001 is a sev1. When should executive escalation happen?,"Because ticket T-2001 is sev1, executive escalation should happen at the 15 minute mark.",API::ticket_status|DOC-RUN-002
+Q0215,hybrid,Ticket T-2004 is marked sev1. How often should the public status page be updated?,"Because ticket T-2004 is sev1, the public status page should be updated every 30 minutes.",API::ticket_status|DOC-RUN-002
+Q0216,hybrid,Ticket T-2004 is a sev1. When should executive escalation happen?,"Because ticket T-2004 is sev1, executive escalation should happen at the 15 minute mark.",API::ticket_status|DOC-RUN-002
+Q0217,hybrid,Ticket T-2004 is about API throttling. What backoff should support recommend?,"For ticket T-2004, support should recommend exponential backoff of 2, 4, 8, and 16 seconds.",API::ticket_status|DOC-RUN-003
+Q0218,hybrid,Ticket T-2009 is marked sev1. How often should the public status page be updated?,"Because ticket T-2009 is sev1, the public status page should be updated every 30 minutes.",API::ticket_status|DOC-RUN-002
+Q0219,hybrid,Ticket T-2009 is a sev1. When should executive escalation happen?,"Because ticket T-2009 is sev1, executive escalation should happen at the 15 minute mark.",API::ticket_status|DOC-RUN-002
+Q0220,hybrid,Ticket T-2012 is about API throttling. What backoff should support recommend?,"For ticket T-2012, support should recommend exponential backoff of 2, 4, 8, and 16 seconds.",API::ticket_status|DOC-RUN-003
+Q0221,hybrid,Order O-3001 is a hardware bundle. How quickly should it ship according to policy?,"Order O-3001 is a hardware bundle, so it should ship within 2 business days.",API::order_status|DOC-FAQ-003
+Q0222,hybrid,"Order O-3002 contains accessories. If it is backordered, how will it ship?","If order O-3002 is backordered, the accessories ship separately from the main order.",API::order_status|DOC-FAQ-003
+Q0223,hybrid,Order O-3003 is a replacement shipment. Does it restart the subscription term?,"No. Order O-3003 is a replacement shipment, and replacement shipments do not restart the subscription term.",API::order_status|DOC-FAQ-003
+Q0224,hybrid,Order O-3004 is a hardware bundle. How quickly should it ship according to policy?,"Order O-3004 is a hardware bundle, so it should ship within 2 business days.",API::order_status|DOC-FAQ-003
+Q0225,hybrid,"Order O-3005 contains accessories. If it is backordered, how will it ship?","If order O-3005 is backordered, the accessories ship separately from the main order.",API::order_status|DOC-FAQ-003
+Q0226,hybrid,Order O-3006 is a hardware bundle. How quickly should it ship according to policy?,"Order O-3006 is a hardware bundle, so it should ship within 2 business days.",API::order_status|DOC-FAQ-003
