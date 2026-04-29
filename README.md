@@ -21,7 +21,7 @@ The app supports:
 - storing traces, prompts, outputs, and feedback in SQL
 - running a load test and failure analysis
 
-## 2. Why this architecture is good for interviews
+## 2. Why this architecture is good ?
 
 This design is strong because it separates the system into the same components a production RAG app needs:
 
