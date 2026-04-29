@@ -1,11 +1,7 @@
-# Enterprise RAG Support Agent (Simple Local Version)
-
-This project builds the exact support-copilot workflow you asked for, but replaces PostgreSQL + pgvector with:
+# Enterprise RAG Support Agent 
 
 - **SQLite** for documents, chunks, traces, prompts, outputs, feedback, tickets, accounts, orders, and eval results
 - **FAISS** for vector search
-
-That makes the project much easier to run, explain, and demo in an interview.
 
 ## 1. What this system does
 
